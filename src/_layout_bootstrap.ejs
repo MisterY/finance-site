@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title><%- title %></title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/styles.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="http://home.alensiljak.tk/styles.css" /> -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="titlebox">
+		<div class="page-header">
+			<h1><%- title %> <small>Subtext for header</small></h1>
+		</div>
+	</div>
+
+	<!-- main navbar -->
+	<nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+	      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+          	</button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          	<ul class="nav navbar-nav">
+          		<li class="dropdown">
+          			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Countries <b class="caret"></b></a>
+          			<ul class="dropdown-menu" role="menu">
+          				<li><a href="aus_finance.html">Australia</a></li>
+          			</ul>
+          		</li>
+            	<li class="active"><a href="#">Link</a></li>
+            	<li><a href="#">Link</a></li>
+            	<li class="dropdown">
+              		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              		<ul class="dropdown-menu" role="menu">
+                		<li><a href="#">Action</a></li>
+                		<li><a href="#">Another action</a></li>
+                		<li><a href="#">Something else here</a></li>
+		                <li class="divider"></li>
+		                <li><a href="#">Separated link</a></li>
+		                <li class="divider"></li>
+		                <li><a href="#">One more separated link</a></li>
+              		</ul>
+            	</li>
+          </ul>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search" data-cip-id="cIPJQ342845653">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+	<!-- page navbar, border. Should be sidebar on big screen and collapsible on small, see below. -->
+	<nav class="navbar navbar-default navbar-static" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+	          	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#page-navbar">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+	          	</button>
+				<a class="navbar-brand" href="/bootstrap.html">Bootstrap</a>
+			</div>
+
+			<div class="collapse navbar-collapse bs-example-js-navbar-collapse" id="page-navbar">
+	          <ul class="nav navbar-nav">
+	            <li class="dropdown">
+	              <a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Countries <b class="caret"></b></a>
+	              <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+	              	<li role="presentation"><a role="menuitem" tabindex="-1" href="countries.html">Countries</a></li>
+	              	<li role="presentation" class="divider"></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="aus_finance.html">Australia</a></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="ba_finance.html">Bosnia</a></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
+	                <li role="presentation" class="divider"></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
+	              </ul>
+	            </li>
+	            <li class="dropdown">
+	              <a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">Dropdown 2 <b class="caret"></b></a>
+	              <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Action</a></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Another action</a></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
+	                <li role="presentation" class="divider"></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
+	              </ul>
+	            </li>
+	          </ul>
+	          <ul class="nav navbar-nav navbar-right">
+	            <li id="fat-menu" class="dropdown">
+	              <a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">Dropdown 3 <b class="caret"></b></a>
+	              <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Action</a></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Another action</a></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
+	                <li role="presentation" class="divider"></li>
+	                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
+	              </ul>
+	            </li>
+	          </ul>
+	        </div>
+		</div>
+	</nav>
+
+	<!-- another navbar, plain -->
+	<nav class="navbar navbar-nav">
+		<div class="container-fluid">
+			<div class="navbar-header">
+			</div>
+			<div class="collapse navbar-collapse bs-example-js-navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a role="button" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+			                <li role="presentation"><a role="menuitem" tabindex="-1" href="countries.html">Countries</a></li>
+			                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Another action</a></li>
+			                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
+			                <li role="presentation" class="divider"></li>
+			                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
+			            </ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div>Separator</div>
+
+	<!-- example of collapsing vertical menu -->
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-10">
+				<p>Ten-column part</p>
+			</div>
+			<div class="col-xs-2">
+				<p>Two-column part</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-10">
+		<p>Some content here</p>
+	</div>
+	<div class="col-md-2">
+	    <nav class="navbar navbar-default" role="navigation">
+
+	        <div class="navbar-header">
+	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	            </button>
+	        </div>
+
+	        <div class="collapse navbar-collapse">
+	            <div class="panel-heading">Sidebar22</div>
+	            <ul class="nav nav-stacked">
+	                <li class="active"><a href="#">Link</a></li>
+	                <li><a href="#">Link</a></li>
+	                <li><a href="#">Link</a></li>
+	                <li><a href="#">Link</a></li>              
+	            </ul>
+
+
+	        </div><!-- /.navbar-collapse -->
+	    </nav>
+
+	</div><!--/end left column-->
+
+
+<!-- Old code starts here. -->
+
+<div class="bodycontainer">
+	<div id="rightnav">
+		<!-- #BeginEditable "rightnav" -->
+		<%- partial("_partials/" + rightnav_menu) %>
+		<!-- #EndEditable -->
+
+		<p>&nbsp;</p>
+
+		<!--webbot bot="Include" U-Include="ads_right.html" TAG="BODY" startspan -->
+		<%- partial("_partials/ads_square.html") %>
+		<%- partial("_partials/ads_right.html") %>
+		<!--webbot bot="Include" endspan i-checksum="46408" -->
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-4">
+				<p>First column</p>
+			</div>
+			<div class="col-xs-4">
+				<p>Second column</p>
+			</div>
+			<div class="col-xs-4">
+				<p>Third column</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="bodyarea">
+		<%- yield %>
+	</div>
+</div>
+
+<div id="footerarea">
+	<%- partial('_partials/footer') %>
+</div>
+
+<%- partial('_partials/google-analytics') %>
+
+<!--%# //- getBlock("scripts").toHTML() %--> 
+</body>
+
+</html>

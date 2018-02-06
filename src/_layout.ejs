@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!--# //- getBlock("meta").toHTML() %-->
+	<!-- #BeginEditable "doctitle" -->
+	<title><%- title %></title>
+	<!-- #EndEditable -->
+	<!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+	<link rel="stylesheet" type="text/css" href="/default.css" />
+	<link rel="stylesheet" type="text/css" href="http://home.alensiljak.tk/styles.css" />
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2/jquery.min.js"></script> -->
+	<!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+	<!-- SmartMenus 6 config and script core files -->
+	<script type="text/javascript" src="c_config.js"></script>
+	<script type="text/javascript" src="c_smartmenus.js"></script>
+	<!-- SmartMenus 6 config and script core files -->
+	<!--%# //- getBlock("styles").toHTML() %-->
+</head>
+
+<body>
+	<div id="titlebox">
+		<!-- #BeginEditable "pagetitle" -->
+		<h1><%- title %></h1>
+		<!-- #EndEditable -->
+		<center>
+			<div id="horizbar">
+				<ul id="MenuH">
+					<li><a class="hmenuitem" href="/">Home</a></li>
+					<li><a class="hmenuitem" href="countries.html">Countries</a>
+						<ul>
+							<li><a href="aus_finance.html">Australia</a></li>
+					        <li><a href="ba_finance.html">Bosnia</a></li>
+					        <li><a href="sr_finance.html">Serbia</a></li>
+					        <li><a href="swe_finance.html">Sweden</a></li>
+					     </ul>
+					</li>
+					<li><a class="hmenuitem" href="investment.html">Investment</a>
+						<ul>
+							<li><a href="asset_allocation.html">Asset Allocation</a></li>
+							<li><a href="investment_tips.html">Investment Tips</a></li>
+							<li><a href="economic_indicators.html">Economic Indicators</a></li>
+							<li><a href="investment_reading.html">Investment Reading</a></li>
+						</ul>
+					</li>
+					<li><a class="hmenuitem" href="online_business.html">Online Business</a></li>
+					<li><a class="hmenuitem" href="tax.html">Tax</a></li>
+					<li><a class="hmenuitem" href="theory.html">Theory</a></li>
+					<li><a class="hmenuitem" href="tools.html">Tools</a></li>
+					<li><a id="blogLink" class="hmenuitem" href="http://alensfinance.blogspot.com/">Finance Blog</a></li>
+				</ul>
+			</div>
+		</center>
+		<div style="clear:both"></div>
+	</div>
+
+<div class="bodycontainer">
+	<div id="rightnav">
+		<!-- #BeginEditable "rightnav" -->
+		<%- partial("_partials/" + rightnav_menu) %>
+		<!-- #EndEditable -->
+
+		<p>&nbsp;</p>
+
+		<!--webbot bot="Include" U-Include="ads_right.html" TAG="BODY" startspan -->
+		<%- partial("_partials/ads_square.html") %>
+		<%- partial("_partials/ads_right.html") %>
+		<!--webbot bot="Include" endspan i-checksum="46408" -->
+	</div>
+
+	<div id="bodyarea">
+		<%- yield %>
+	</div>
+</div>
+
+<div id="footerarea">
+	<%- partial('_partials/footer') %>
+</div>
+
+<%- partial('_partials/google-analytics') %>
+
+<!--%# //- getBlock("scripts").toHTML() %--> 
+</body>
+
+</html>

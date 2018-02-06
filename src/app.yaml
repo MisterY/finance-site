@@ -1,0 +1,38 @@
+application: alensfinance-hrd
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+#- url: /.*
+#  script: helloworld.php
+
+# Handle root
+- url: /
+  script: home.php
+
+# Serve images as static resources.
+- url: /(.*\.(html|htm|css|jpg|gif|png|js|txt))$
+  static_files: \1
+  upload: .*\.(html|htm|css|jpg|gif|png|js|txt)$
+  application_readable: true
+
+#- url: /(.+\.(gif|png|jpg))$
+#  static_files: \1
+#  upload: .+\.(gif|png|jpg)$
+#  application_readable: true
+
+# Serve php scripts.
+- url: /(.+\.php)$
+  script: \1
+
+# These static definitions might not be necessary now.
+
+- url: /images
+  static_dir: images
+
+- url: /img
+  static_dir: img
+
+- url: /(.*)
+  static_dir: /(.*)

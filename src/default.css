@@ -1,0 +1,134 @@
+﻿/* Styles for finance site */
+body {
+	background:#006600; 
+/*	background-image:url('http://alen.appspot.com/img/money/22566333.jpg');	*/
+}
+
+h1 {
+    font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+    font-size:28px;
+/*	color: #001100;		*/
+	margin-bottom:10px; /* fix for top menu position */
+/*	background:#CCFF66;		*/
+	background-color:white;
+	display:inline-block;
+	margin: 15px 0 15px 0;
+	opacity:0.7;
+	filter:alpha(opacity:70);
+	font-variant:small-caps;
+}
+
+h6 {
+	background-image:url('post_info.gif');
+	background-repeat: no-repeat;
+/*	width:541px	*/
+	height:25px;
+	color:white;
+	padding:4px 0 0 4px; /* top right bottom left */
+	font-size: 14px;
+	margin:19px 0 10px 0;
+	font-variant:small-caps;
+}
+
+a:link,a:visited{
+	color:#005500;
+	text-decoration:none;
+/*	font-style: oblique;	*/
+	font-weight: bold;
+	font-variant: small-caps;
+}
+a:hover{
+	text-decoration:underline;
+	color:#FF6600;
+}
+
+.image{
+	border:1px darkgreen solid;
+}
+
+/****************************************************/
+/* Areas 											*/
+/****************************************************/
+#titlebox{
+	text-align: center;
+/*	margin-bottom:60px; */
+	height:6.6em;
+	border: thin solid olive;
+	background:#CCFF66 url('img/ist1_1290477-ocean-of-dollars.jpg') repeat;
+}
+
+div.bodycontainer{
+	width: 90%; 
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#bodyarea {
+	/* float: right; */
+	width: 80%;
+	max-width: 800px;
+	padding: 4px 4px 4px 4px;
+	border: thin solid teal;
+	background-color:#C1FFC1;	/* #99FF99 */
+    border-radius: 8px;
+}
+
+#rightnav {
+/*	clear:right;	*/
+	min-height: 250px;
+	width:17%;
+	max-width: 200px;
+/*	position:absolute;	*/
+	float:right;
+/*	top:74px;	*/
+	top:5.9em;
+	right:9px;
+	/* background-color:green; */
+	padding: 6px 6px 6px 6px;
+/*	border: thin solid green;	*/
+	/* background:#CCFF99;	 */
+	background-color:#006600;
+	background-image:url('http://yllhjg.bay.livefilestore.com/y1pzqyZ5WPHVlgNKnYVL9F_4TI9KRdTnabOisxcGV_LFXe_hekMneMUbvHAyMaa6aT7VFvPWKHFo60/greengradient250.png?download');
+	background-repeat:repeat-x;
+    /*border-radius: 8px;*/
+}
+
+#footerarea {
+	margin-top: 5px;	
+	border: thin solid gray;
+	background: #002800;
+	border-radius: 8px;
+}
+
+
+/******************************************************/
+/* additions for menus */
+
+#blogLink {
+	background-image:url('navBarBg.gif');
+}
+#blogLink:hover{
+	background-image:url('navBarBgHover.gif');
+}
+
+/* navbar */
+div#horizbar {
+	height:20px; 
+	border-top: solid #000 1px;
+	border-bottom: solid #000 1px;
+	background: url("navBarBg.gif")
+}
+
+.hmenuitem{
+	display:block;
+	height:12px;
+}
+
+#MenuV > li:first-child a {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#MenuV > li:last-child a {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
