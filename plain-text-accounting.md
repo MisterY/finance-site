@@ -11,3 +11,10 @@ Interesting links:
 - [Asset Allocation](https://www.ledger-cli.org/3.0/doc/ledger3.html#Asset-Allocation)
 - [Extending with Python](https://www.ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python)
 - [Import from GnuCash](https://github.com/MatzeB/pygnucash)
+
+# Beancount
+
+[Beancount](https://github.com/beancount/beancount) is Ledger implemented in Python.
+[Fava](https://github.com/beancount/fava) is the web interface to Beancount.
+
+- [Gnucash to Beancount](https://github.com/henriquebastos/gnucash-to-beancount)
