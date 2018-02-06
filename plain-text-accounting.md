@@ -18,3 +18,8 @@ Interesting links:
 [Fava](https://github.com/beancount/fava) is the web interface to Beancount.
 
 - [Gnucash to Beancount](https://github.com/henriquebastos/gnucash-to-beancount)
+
+# Import/Export
+
+Piecash has an export module that can export GnuCash book into Ledger format.
+http://piecash.readthedocs.io/en/latest/doc/doc.html?highlight=ledger
