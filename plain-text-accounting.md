@@ -10,3 +10,4 @@ Interesting links:
 
 - [Asset Allocation](https://www.ledger-cli.org/3.0/doc/ledger3.html#Asset-Allocation)
 - [Extending with Python](https://www.ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python)
+- [Import from GnuCash](https://github.com/MatzeB/pygnucash)
