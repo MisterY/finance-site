@@ -1,3 +1,7 @@
+---
+title: Asset Allocation
+rightnav_menu: investment_menu
+---
 
 Asset allocation or risk profiling in necessary before you do any investing. This is usually a short test where your answers provide insight into what kind of investor you are and how comfortable with risk you are.
 
@@ -37,10 +41,10 @@ It is now available [here](http://www.investnbest.com/The%20Portfolio%20Pyramid.
 
 ##### Vanguard risk profiles #####
 
-<img class="image" src="img/Vanguard_Conservative.jpg" alt="Vanguard Conservative" />
-<img class="image" src="img/Vanguard_Balanced.jpg" alt="Vanguard Balanced" />
-<img class="image" src="img/Vanguard_Growth.jpg" alt="Vanguard Growth" />
-<img class="image" src="img/Vanguard_High_Growth.jpg" alt="Vanguard High Growth" />
+<img class="image" src="images/Vanguard_Conservative.jpg" alt="Vanguard Conservative" />
+<img class="image" src="images/Vanguard_Balanced.jpg" alt="Vanguard Balanced" />
+<img class="image" src="images/Vanguard_Growth.jpg" alt="Vanguard Growth" />
+<img class="image" src="images/Vanguard_High_Growth.jpg" alt="Vanguard High Growth" />
 
 <h6>Defensive Investing</h6>
 <p>Read <a href="http://alensfinance.blogspot.com/2009/01/defensive-assets-rule-of-thumb.html">
