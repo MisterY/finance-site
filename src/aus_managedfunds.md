@@ -1,7 +1,7 @@
 
 There are lots of managed funds available in Australia. 
 
-<img alt="[Managed Funds]" src="/img/managed_funds.jpg"
+<img alt="[Managed Funds]" src="images/managed_funds.jpg"
 	style="float:left;margin-right:20px" class="image" />
 
 Several online discount brokers offer very good terms of getting into managed funds by eliminating entry fees and even paying you the trailing commission they get from the funds.

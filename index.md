@@ -6,7 +6,7 @@ rightnav_menu: index-rightnav
 It is amazing to see how many people seem to have problems with money. This was my primary motivation of posting these pages to the web. I will hardly write something that has not been written elsewhere but will collect a few useful pieces of advice and handy links here. It certainly will not harm to have them available at hand.
 
 <div style="float:left;padding-right:4px">
-	<img src="/img/moneypile.jpg" alt="notes" class="image" />
+	<img src="images/moneypile.jpg" alt="notes" class="image" />
 </div>
 
 The content is divided into general and country-specific areas. General content is reachable from the front page and country-specific content is available from the [Countries](countries.html) menu. These cover areas I had an opportunity to experience myself.
@@ -25,17 +25,17 @@ Technical Analysis: [Trading Indicators](trading_indicators.html) description de
 
 <div style="margin: 0 auto; text-align:center">
 
-<a href="economic_calendar.html"><img src="img/simple18.png" width="20px"> Economic Calendar</a> 
+<a href="economic_calendar.html"><img src="images/simple18.png" width="20px"> Economic Calendar</a> 
 
 &bullet;
 
-<a href="economic_indicators.html"><img src="img/chart15.png" width="25px"> economic indicators</a>
+<a href="economic_indicators.html"><img src="images/chart15.png" width="25px"> economic indicators</a>
 
 &bullet;
 
-<a href="global_market_charts.html"><img src="img/ascendant6.png" width="25px"> Market Charts</a>
+<a href="global_market_charts.html"><img src="images/ascendant6.png" width="25px"> Market Charts</a>
 &bullet;
-<a href="http://alensfinance.blogspot.com/2014/08/market-news-sources.html"><img src="img/news3.png" width="25px"> Market News</a>
+<a href="http://alensfinance.blogspot.com/2014/08/market-news-sources.html"><img src="images/news3.png" width="25px"> Market News</a>
 </div>
 
 <table width="100%">

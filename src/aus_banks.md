@@ -21,7 +21,7 @@ locator</a>
 ###### The Big Four
 
 <div style="float:right;padding-right:4px;text-align:center">
-<img src="img/lw_cash.jpg" alt="" style="border:1px darkgreen solid" />
+<img src="images/lw_cash.jpg" alt="" style="border:1px darkgreen solid" />
 </div>
 
 ##### ANZ - Australia and New Zealand Banking Group Limited

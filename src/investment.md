@@ -1,6 +1,6 @@
 
 <div style="float:left;padding-right:4px">
-	<img alt="" src="/img/stockmarket.gif" />
+	<img alt="" src="images/stockmarket.gif" />
 </div>
 Investing is, by definition, placement of capital with an expectation of future returns. This is a broad definition and it means that there are various forms of investment.
 
@@ -23,7 +23,7 @@ Investment goals can be divided into growth and income. Growth investment is inv
 
 One of the most important issues in financial investing is [asset allocation](asset_allocation.html). 
 
-The key <a href="economic_indicators.html">economic indicators <img src="img/chart15.png" width=25 /></a> are listed on their separate page, and the most important events of the day can be seen at the <a href="economic_calendar.html">Economic Calendar <img src="img/simple18.png" width=20px /></a>.
+The key <a href="economic_indicators.html">economic indicators <img src="images/chart15.png" width=25 /></a> are listed on their separate page, and the most important events of the day can be seen at the <a href="economic_calendar.html">Economic Calendar <img src="images/simple18.png" width=20px /></a>.
 
 Read some investment tips [here](investment_tips.html).
 
