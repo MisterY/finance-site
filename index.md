@@ -1,6 +1,6 @@
 ---
 title: Alen's Finance Pages
-rightnav_menu: index-rightnav
+rightnav_menu: index-rightnav.md
 ---
 
 It is amazing to see how many people seem to have problems with money. This was my primary motivation of posting these pages to the web. I will hardly write something that has not been written elsewhere but will collect a few useful pieces of advice and handy links here. It certainly will not harm to have them available at hand.
