@@ -51,8 +51,8 @@ c_styles['MM']=[ // MainMenu (the shorter the class name the better)
 '#4d4c76',	// OVER BorderColor
 4,			// Padding
 
-'[navBarBg.gif]',	// Background ('color','transparent','[image_source]')
-'[navBarBgHover.gif]',	// OVER Background
+'[images/navBarBg.gif]',	// Background ('color','transparent','[image_source]')
+'[images/navBarBgHover.gif]',	// OVER Background
 '#252455',	// Color
 '#FFFFFF',	// OVER Color
 '12px',		// FontSize (values in CSS valid units - %,em,ex,px,pt)
@@ -68,25 +68,25 @@ c_styles['MM']=[ // MainMenu (the shorter the class name the better)
 0,			// ItemsSeparatorSpacing
 
 true,			// UseSubMenuImage (true,false)
-'[h_arrow.gif]',	// SubMenuImageSource ('[image_source]')
-'[h_arrow_over.gif]',	// OverSubMenuImageSource
+'[images/h_arrow.gif]',	// SubMenuImageSource ('[image_source]')
+'[images/h_arrow_over.gif]',	// OverSubMenuImageSource
 7,				// SubMenuImageWidth
 4,				// SubMenuImageHeight
 '10',			// SubMenuImageVAlign ('pixels from item top','middle')
 
 'none',		// VISITED BorderStyle
 '#FFF5C6',		// VISITED BorderColor
-'[navBarBg.gif]',		// VISITED Background
+'[images/navBarBg.gif]',		// VISITED Background
 '#252455',		// VISITED Color
 'none',			// VISITED TextDecoration
-'[h_arrow.gif]',	// VISITED SubMenuImageSource
+'[images/h_arrow.gif]',	// VISITED SubMenuImageSource
 
 'none',		// CURRENT BorderStyle
 '#CBCBEF',		// CURRENT BorderColor
-'[navBarBgHover.gif]',		// CURRENT Background
+'[images/navBarBgHover.gif]',		// CURRENT Background
 '#252455',		// CURRENT Color
 'underline',			// CURRENT TextDecoration
-'[h_arrow.gif]',	// CURRENT SubMenuImageSource
+'[images/h_arrow.gif]',	// CURRENT SubMenuImageSource
 
 '',		// Custom additional CSS for the items (valid CSS)
 '',		// OVER Custom additional CSS for the items (valid CSS)
@@ -129,8 +129,8 @@ c_styles['SM']=[ // SubMenus
 '#CBCBEF',	// ItemsSeparatorColor ('color','transparent')
 2,		// ItemsSeparatorSpacing
 true,			// UseSubMenuImage (true,false)
-'[v_arrow.gif]',	// SubMenuImageSource ('[image_source]')
-'[v_arrow_over.gif]',	// OverSubMenuImageSource
+'[images/v_arrow.gif]',	// SubMenuImageSource ('[image_source]')
+'[images/v_arrow_over.gif]',	// OverSubMenuImageSource
 7,			// SubMenuImageWidth
 7,			// SubMenuImageHeight
 '7',			// SubMenuImageVAlign ('pixels from item top','middle')
@@ -139,14 +139,14 @@ true,			// UseSubMenuImage (true,false)
 '#FFF5C6',		// VISITED Background
 '#252455',		// VISITED Color
 'none',			// VISITED TextDecoration
-'[v_arrow.gif]',	// VISITED SubMenuImageSource
+'[images/v_arrow.gif]',	// VISITED SubMenuImageSource
 
 'solid',		// CURRENT BorderStyle
 '#CBCBEF',		// CURRENT BorderColor
 '#FFFBF0',		// CURRENT Background
 '#252455',		// CURRENT Color
 'none',			// CURRENT TextDecoration
-'[v_arrow.gif]',	// CURRENT SubMenuImageSource
+'[images/v_arrow.gif]',	// CURRENT SubMenuImageSource
 '',		// Custom additional CSS for the items (valid CSS)
 '',		// OVER Custom additional CSS for the items (valid CSS)
 '',		// CURRENT Custom additional CSS for the items (valid CSS)
@@ -176,8 +176,8 @@ c_styles['MMV']=[ // MainMenu (the shorter the class name the better)
 '#4d4c76',	// OVER BorderColor
 4,			// Padding
 
-'[navBarBg.gif]',	// Background ('color','transparent','[image_source]')
-'[navBarBgHover.gif]',	// OVER Background
+'[images/navBarBg.gif]',	// Background ('color','transparent','[image_source]')
+'[images/navBarBgHover.gif]',	// OVER Background
 '#252455',	// Color
 '#FFFFFF',	// OVER Color
 '10px',		// FontSize (values in CSS valid units - %,em,ex,px,pt)
@@ -193,25 +193,25 @@ c_styles['MMV']=[ // MainMenu (the shorter the class name the better)
 0,			// ItemsSeparatorSpacing
 
 true,			// UseSubMenuImage (true,false)
-'[v_arrow.gif]',	// SubMenuImageSource ('[image_source]')
-'[v_arrow_over.gif]',	// OverSubMenuImageSource
+'[images/v_arrow.gif]',	// SubMenuImageSource ('[image_source]')
+'[images/v_arrow_over.gif]',	// OverSubMenuImageSource
 4,				// SubMenuImageWidth
 7,				// SubMenuImageHeight
 'middle',			// SubMenuImageVAlign ('pixels from item top','middle')
 
 'solid',		// VISITED BorderStyle
 '#FFF5C6',		// VISITED BorderColor
-'[navBarBg.gif]',		// VISITED Background
+'[images/navBarBg.gif]',		// VISITED Background
 '#252455',		// VISITED Color
 'none',			// VISITED TextDecoration
-'[v_arrow.gif]',	// VISITED SubMenuImageSource
+'[images/v_arrow.gif]',	// VISITED SubMenuImageSource
 
 'solid',		// CURRENT BorderStyle
 '#CBCBEF',		// CURRENT BorderColor
-'[navBarBgHover.gif]',		// CURRENT Background
+'[images/navBarBgHover.gif]',		// CURRENT Background
 '#252455',		// CURRENT Color
 'underline',			// CURRENT TextDecoration
-'[v_arrow.gif]',	// CURRENT SubMenuImageSource
+'[images/v_arrow.gif]',	// CURRENT SubMenuImageSource
 
 '',		// Custom additional CSS for the items (valid CSS)
 '',		// OVER Custom additional CSS for the items (valid CSS)
