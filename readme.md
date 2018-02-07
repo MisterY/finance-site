@@ -1,6 +1,6 @@
 ---
 title: ReadMe
-rightnav_menu: index-rightnav
+rightnav_menu: index-rightnav.md
 ---
 
 # Alen's Finance web site

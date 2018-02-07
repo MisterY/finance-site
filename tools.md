@@ -1,6 +1,6 @@
 ﻿---
 title: Tools
-rightnav_menu: index-rightnav
+rightnav_menu: index-rightnav.md
 ---
 
 <p>Here you can access different financial tools - charts, calculators.</p>

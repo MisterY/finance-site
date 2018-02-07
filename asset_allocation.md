@@ -1,6 +1,6 @@
 ---
 title: Asset Allocation
-rightnav_menu: investment_menu
+rightnav_menu: investment_menu.md
 ---
 
 Asset allocation or risk profiling in necessary before you do any investing. This is usually a short test where your answers provide insight into what kind of investor you are and how comfortable with risk you are.
