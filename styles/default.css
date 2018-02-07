@@ -19,7 +19,7 @@ h1 {
 }
 
 h6 {
-	background-image:url('post_info.gif');
+	background-image:url('images/post_info.gif');
 	background-repeat: no-repeat;
 /*	width:541px	*/
 	height:25px;
@@ -54,7 +54,7 @@ a:hover{
 /*	margin-bottom:60px; */
 	height:6.6em;
 	border: thin solid olive;
-	background:#CCFF66 url('img/ist1_1290477-ocean-of-dollars.jpg') repeat;
+	background:#CCFF66 url('images/ist1_1290477-ocean-of-dollars.jpg') repeat;
 }
 
 div.bodycontainer{
