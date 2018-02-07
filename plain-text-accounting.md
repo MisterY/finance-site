@@ -1,5 +1,6 @@
 ---
 title: Plain Text Accounting
+rightnav_menu: index-rightnav
 ---
 
 - [Plain Text Accounting](http://plaintextaccounting.org/)

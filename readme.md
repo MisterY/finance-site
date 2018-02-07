@@ -1,3 +1,8 @@
+---
+title: ReadMe
+rightnav_menu: index-rightnav
+---
+
 # Alen's Finance web site
 
 Note:
