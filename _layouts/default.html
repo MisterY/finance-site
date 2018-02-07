@@ -18,6 +18,41 @@
     <![endif]-->
   </head>
   <body>
+    <div id="titlebox">
+      <!-- #BeginEditable "pagetitle" -->
+      <h1><%- title %></h1>
+      <!-- #EndEditable -->
+      <center>
+        <div id="horizbar">
+          <ul id="MenuH">
+            <li><a class="hmenuitem" href="/">Home</a></li>
+            <li><a class="hmenuitem" href="countries.html">Countries</a>
+              <ul>
+                <li><a href="aus_finance.html">Australia</a></li>
+                    <li><a href="ba_finance.html">Bosnia</a></li>
+                    <li><a href="sr_finance.html">Serbia</a></li>
+                    <li><a href="swe_finance.html">Sweden</a></li>
+                 </ul>
+            </li>
+            <li><a class="hmenuitem" href="investment.html">Investment</a>
+              <ul>
+                <li><a href="asset_allocation.html">Asset Allocation</a></li>
+                <li><a href="investment_tips.html">Investment Tips</a></li>
+                <li><a href="economic_indicators.html">Economic Indicators</a></li>
+                <li><a href="investment_reading.html">Investment Reading</a></li>
+              </ul>
+            </li>
+            <li><a class="hmenuitem" href="online_business.html">Online Business</a></li>
+            <li><a class="hmenuitem" href="tax.html">Tax</a></li>
+            <li><a class="hmenuitem" href="theory.html">Theory</a></li>
+            <li><a class="hmenuitem" href="tools.html">Tools</a></li>
+            <li><a id="blogLink" class="hmenuitem" href="http://alensfinance.blogspot.com/">Finance Blog</a></li>
+          </ul>
+        </div>
+      </center>
+      <div style="clear:both"></div>
+    </div>
+  
     <div class="wrapper">
       <header>
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
