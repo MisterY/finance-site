@@ -3,8 +3,9 @@ title: Plain Text Accounting
 rightnav_menu: index-rightnav.md
 ---
 
-- [Plain Text Accounting](http://plaintextaccounting.org/)
-- [Ledger CLI](http://ledger-cli.org/)
+The [Plain Text Accounting](http://plaintextaccounting.org/) page contains a lot of useful resources.
+
+The most widespread client application is [Ledger CLI](http://ledger-cli.org/).
 
 ## Ledger
 
@@ -27,3 +28,11 @@ Interesting links:
 
 Piecash has an export module that can export GnuCash book into Ledger format.
 http://piecash.readthedocs.io/en/latest/doc/doc.html?highlight=ledger
+
+- [Links](http://plaintextaccounting.org/#data-importconversion)
+
+## GUI
+
+Graphical user interfaces are also available.
+
+- [GUI](http://plaintextaccounting.org/#ui-console)
