@@ -1,0 +1,286 @@
+﻿/* Created by Alen Siljak */
+td {
+	font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+	font-size: 10pt;
+}
+p {
+	font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+	font-size: 10pt;
+}
+body {
+	font-family: Verdana, Geneva, "DejaVu Sans", sans-serif;
+	font-size: 10pt;
+	/*
+	background-color:#460000;
+	background-repeat:no-repeat;
+	*/
+}
+body:visited{
+	color: #FFCC00;
+}
+.tekst {
+	font-family: Verdana;
+	font-size: 10pt;
+}
+/********************************/
+/* Alen Site styles             */
+.alen_site a {
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12pt;	
+}
+.alen_site a:hover {
+	text-decoration: underline;
+	color: Red;
+}
+.alen_site a:active {
+	color: yellow;
+}
+/* and the new version below */
+.alen_site {
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 11pt;
+	text-decoration: none;
+}
+/*
+.alen_site:link {
+}
+*/
+.alen_site:hover {
+	text-decoration: underline;
+	color: Red;
+}
+.alen_site:active {
+	color: yellow;
+}
+/*	 
+  
+  .alen_site a:link {
+  		color:white;
+  }
+  .alen_site a:visited {
+  		color:#D98D00;
+  }
+*/
+/********************************/
+/* Links */
+.orange_link {
+	color: #FFCC00;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #800000;
+	text-align: center;
+}
+.orange_link a {
+	color: #FFCC00;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	text-decoration: none;
+}
+.orange_link a:hover {
+	text-decoration: underline;
+}
+.smalllink {
+	font-weight: normal;
+	line-height: 140%;
+}
+.smalllink:link {
+	font-size: xx-small;
+}
+.smalllink:visited {
+	font-size: xx-small;
+}
+/*************************************************/
+.EssayHeader {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: medium;
+	text-align: center;
+}
+.updates {
+	font-size: 10px;
+	font-family: Tahoma;
+	margin-bottom: 6px;
+	margin-top: 5px;
+/*	color:#66CCFF;	*/
+/*	color:navy;	*/
+	color:#009999;
+}
+.tahomaText {
+	font-family: Tahoma;
+}
+.toplink {
+	font-family: tahoma;
+	font-size: 8pt;
+	text-align: center;
+	text-decoration: none;
+}
+.code_box {
+	width: 85%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family: monospace;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: #FFFF99;
+}
+.LeftLinkBox {
+	position: relative;
+	z-index: 1;
+	float: left;
+	background-color: #F4F400;
+	margin-right: 4px;
+	padding: 5px 4px 4px 4px;
+}
+.LeftLinkBox a {
+	font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size: 12pt;
+	text-decoration: none;
+}
+.LeftLinkBox a:hover {
+	text-decoration: underline;
+	color: Red;
+}
+.LeftLinkBox a:active {
+	color: yellow;
+}
+/*********************************** top links ***********************************************/
+.wood_bg {
+	display: block;
+	width: 120px;
+	height: 30px;
+	background-image: url('http://alen.appspot.com/img/Wood.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: Tahoma;
+	font-size: 11pt;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 2em;
+}
+.wood_bg a {
+	color:  #FFCC00;
+	text-decoration: none;
+}
+.wood_bg:link {
+	color: #FFCC00;
+	text-decoration: none;
+}
+.wood_bg a:hover{
+	color: yellow;
+	text-decoration: underline;
+}
+.wood_bg:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+.wood_bg:active {
+	color: red;
+}
+/*
+.wood_bg:visited {
+	color: orange; 
+}
+.wood_bg a:visited{
+	color:orange; 
+}
+*/
+
+.sky_bg {
+	display: block;
+	width: 120px;
+	height: 30px;
+	font-family: Tahoma;
+	font-size: 11pt;
+	line-height: 2em;
+	background-image: url('http://alen.appspot.com/img/Clouds.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-weight: bold;
+}
+.sky_bg:link {
+	text-decoration: none;
+	color: #FF0003;
+}
+.sky_bg a {
+	text-decoration: none;
+	color: #FF0003;
+}
+.sky_bg:hover {
+	text-decoration: underline;
+	color: #FF0003;
+}
+.sky_bg a:hover {
+	text-decoration: underline;
+	color: #FF0003;
+}
+.sky_bg:visited{
+	text-decoration:none;
+}
+/****************************************************************************************/
+/* For comparison tables */
+.yellow_cell {
+	background-color: #FFFF00;
+}
+.red_cell {
+	background-color: #FF0000;
+}
+.green_cell {
+	background-color: #00FF00;
+}
+/****************************************/
+.right_box{
+	position: relative; z-index: 1; float: right; margin-left: 4px
+}
+.APACitation {
+	font-family: "Courier New", Courier, monospace;
+	text-indent: -0.5in;
+	margin-left: 0.5in;
+}
+.centered {
+	text-align: center;
+}
+.no_border {
+	border-width: 0px;
+}
+.images_body {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.underlined {
+	text-decoration: underline;
+}
+/* boxes that float on the right side */
+.floatingBoxes{
+	float: right; 
+	border: 1px; 
+	border-color: maroon; 
+	background: orange; 
+	margin: 2px; 
+	padding: 2px
+	}
+
+#footer{
+	margin-top:10px;
+}
+/***************************************************************/
+/* item lists */
+.itemslist{
+	list-style-type:none;
+	margin-left:0;
+	display:block;
+}
+.itemsitem{
+	display:inline;margin-right:3em;
+}
+
+/* bootstrap customization */
+.container-fluid {
+	max-width: 950px;
+}
