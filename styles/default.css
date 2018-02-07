@@ -116,7 +116,7 @@ div#horizbar {
 	height:20px; 
 	border-top: solid #000 1px;
 	border-bottom: solid #000 1px;
-	background: url("navBarBg.gif")
+	background: url("../images/navBarBg.gif")
 }
 
 .hmenuitem{
