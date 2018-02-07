@@ -1,4 +1,8 @@
-﻿
+﻿---
+title: Tools
+rightnav_menu: index-rightnav
+---
+
 <p>Here you can access different financial tools - charts, calculators.</p>
 <p><a href="asset_allocation.html">Asset Allocation (Risk Profiling)</a></p>
 <h6><a name="Charting_Tools">Charting Tools</a></h6>
