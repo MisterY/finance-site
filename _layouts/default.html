@@ -87,7 +87,8 @@
   <div class="bodycontainer">
     <div id="rightnav">
       <!-- #BeginEditable "rightnav" -->
-       include {{ page.rightnav_menu }} 
+      {% capture right_nav %}{% include {{ page.rightnav_menu }} %}{% endcapture %}
+      {{ right_nav | markdownify }}
       <!-- #EndEditable -->
       <p>&nbsp;</p>
       <!--webbot bot="Include" U-Include="ads_right.html" TAG="BODY" startspan -->
