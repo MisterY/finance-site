@@ -56,6 +56,12 @@ and further.
 
 - https://www.ledger-cli.org/3.0/doc/ledger3.html#Asset-Allocation
 
+### Commodity Prices
+
+use `--download (-Q)` parameter? This worked with Yahoo finance quotes and might be deprecated.
+
+Download prices separately and include into the file? Or maintain the latest prices in GC.
+
 ### Reports / HTML
 
 ### Customization
