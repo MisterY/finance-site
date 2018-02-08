@@ -36,3 +36,30 @@ http://piecash.readthedocs.io/en/latest/doc/doc.html?highlight=ledger
 Graphical user interfaces are also available.
 
 - [GUI](http://plaintextaccounting.org/#ui-console)
+
+## Solutions
+
+Several tips for using ledger.
+
+### Capital Gains
+
+Calculate manually and enter the CG split as a part of the sell transaction.
+
+See
+
+- https://www.ledger-cli.org/3.0/doc/ledger3.html#Buying-and-Selling-Stock
+- https://www.ledger-cli.org/3.0/doc/ledger3.html#Commodity-prices
+
+and further.
+
+### Asset Allocation
+
+- https://www.ledger-cli.org/3.0/doc/ledger3.html#Asset-Allocation
+
+### Reports / HTML
+
+### Customization
+
+Extending with Python:
+
+- https://www.ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python
