@@ -85,6 +85,8 @@ Download prices separately and include into the file? Or maintain the latest pri
 
 recommends using ledger2html [script](http://github.com/lifepillar/ledger2html).
 
+- https://github.com/peterkeen/ledger-web
+
 ### Customization
 
 Extending with Python:
