@@ -73,6 +73,13 @@ The allocation records are entered as:
     (Allocation:Bonds/Cash)                    1.000
 ```    
 
+A way to restrict asset allocation to specific account would be to specify (a part of) account name to be included, like
+
+```
+= /401K/ and expr ( commodity == 'VTHRX')
+     (allocation:Equities:Domestic)  1.000
+```     
+
 ### Commodity Prices
 
 use `--download (-Q)` parameter? This worked with Yahoo finance quotes and might be deprecated.
