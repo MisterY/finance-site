@@ -36,6 +36,7 @@ http://piecash.readthedocs.io/en/latest/doc/doc.html?highlight=ledger
 Graphical user interfaces are also available.
 
 - [GUI](http://plaintextaccounting.org/#ui-console)
+- https://github.com/ledger/ledger/wiki/Entering-transactions-with-ledgerhelpers-GUI-apps
 
 ## Solutions
 
@@ -79,6 +80,10 @@ use `--download (-Q)` parameter? This worked with Yahoo finance quotes and might
 Download prices separately and include into the file? Or maintain the latest prices in GC.
 
 ### Reports / HTML
+
+- https://github.com/ledger/ledger/wiki/Converting-output-to-HTML
+
+recommends using ledger2html [script](http://github.com/lifepillar/ledger2html).
 
 ### Customization
 
