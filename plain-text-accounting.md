@@ -27,7 +27,7 @@ Interesting links:
 ## Import/Export
 
 Piecash has an export module that can export GnuCash book into Ledger format.
-http://piecash.readthedocs.io/en/latest/doc/doc.html?highlight=ledger
+[Piecash docs](http://piecash.readthedocs.io/en/latest/doc/doc.html?highlight=ledger)
 
 - [Links](http://plaintextaccounting.org/#data-importconversion)
 
@@ -36,7 +36,7 @@ http://piecash.readthedocs.io/en/latest/doc/doc.html?highlight=ledger
 Graphical user interfaces are also available.
 
 - [GUI](http://plaintextaccounting.org/#ui-console)
-- https://github.com/ledger/ledger/wiki/Entering-transactions-with-ledgerhelpers-GUI-apps
+- [GUI apps for entering transactions](https://github.com/ledger/ledger/wiki/Entering-transactions-with-ledgerhelpers-GUI-apps)
 
 ## Solutions
 
@@ -48,14 +48,15 @@ Calculate manually and enter the CG split as a part of the sell transaction.
 
 See
 
-- https://www.ledger-cli.org/3.0/doc/ledger3.html#Buying-and-Selling-Stock
-- https://www.ledger-cli.org/3.0/doc/ledger3.html#Commodity-prices
+- [Buying and selling stock](https://www.ledger-cli.org/3.0/doc/ledger3.html#Buying-and-Selling-Stock)
+- [Commodity Prices](https://www.ledger-cli.org/3.0/doc/ledger3.html#Commodity-prices)
+- [Discussion on capturing stock trades](https://groups.google.com/forum/#!topic/ledger-cli/NNmkBgc4Tio)
 
 and further.
 
 ### Asset Allocation
 
-- https://www.ledger-cli.org/3.0/doc/ledger3.html#Asset-Allocation
+- [Asset Allocation](https://www.ledger-cli.org/3.0/doc/ledger3.html#Asset-Allocation)
 
 A bonus in asset allocation implementation is that commodities can be split into several asset classes (i.e. mutual funds can be 60% international bonds and 40% domestic).
 
@@ -88,14 +89,14 @@ Download prices separately and include into the file? Or maintain the latest pri
 
 ### Reports / HTML
 
-- https://github.com/ledger/ledger/wiki/Converting-output-to-HTML
+- [Converting output to HTML](https://github.com/ledger/ledger/wiki/Converting-output-to-HTML)
 
 recommends using ledger2html [script](http://github.com/lifepillar/ledger2html).
 
-- https://github.com/peterkeen/ledger-web
+- [Ledger Web](https://github.com/peterkeen/ledger-web)
 
 ### Customization
 
 Extending with Python:
 
-- https://www.ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python
+- [Extending with Python](https://www.ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python)
