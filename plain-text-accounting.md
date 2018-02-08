@@ -53,6 +53,10 @@ See
 - [Discussion on capturing stock trades](https://groups.google.com/forum/#!topic/ledger-cli/NNmkBgc4Tio)
 
 and further.
+Ledger expects all the splits to be there, with the purchase and sale prices. It will then just calculate the transaction to see if the capital gains split matches the numbers. This is what GnuCash already does on entry.
+So, using Lots feature in GC provides the necessary details.
+
+However, Lots also link 0-quantity splits for reporting purposes, which throw Ledger off balance.
 
 ### Asset Allocation
 
