@@ -56,6 +56,22 @@ and further.
 
 - https://www.ledger-cli.org/3.0/doc/ledger3.html#Asset-Allocation
 
+A bonus in asset allocation implementation is that commodities can be split into several asset classes (i.e. mutual funds can be 60% international bonds and 40% domestic).
+
+The allocation records are entered as:
+```
+= expr ( commodity == 'VIFSX' )
+    (Allocation:Equities:Domestic)             1.000
+
+= expr ( commodity == 'VTHRX' )
+    (Allocation:Equities:Global)               0.240
+    (Allocation:Equities:Domestic)             0.563
+    (Allocation:Bonds/Cash)                    0.197
+
+= expr ( commodity == 'VBMFX')
+    (Allocation:Bonds/Cash)                    1.000
+```    
+
 ### Commodity Prices
 
 use `--download (-Q)` parameter? This worked with Yahoo finance quotes and might be deprecated.
