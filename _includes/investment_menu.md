@@ -1,5 +1,8 @@
 <ul id="MenuV">
 	<li><a href="asset_allocation.html">Asset Allocation</a></li>
+	<li>
+		<a href="inv_brokers">Brokers</a>
+	</li>
 	<li><a href="economic_calendar.html">Economic Calendar</a></li>
 	<li><a href="economic_indicators.html">Economic Indicators</a></li>
 	<li><a href="global_market_charts.html">Global Market Charts</a></li>
