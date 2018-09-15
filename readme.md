@@ -5,6 +5,9 @@ rightnav_menu: index-rightnav.md
 
 # Alen's Finance web site
 
+2018-09-15
+The site is being migrated to GitHub pages.
+
 Note:
 
 The files required to run a PHP version of Google App are now inside the main directory.

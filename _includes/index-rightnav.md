@@ -8,7 +8,7 @@
 		<li><a href="swe_finance.html">Sweden</a></li>
 	</ul>
 	</li>
-	<li><a href="investment.html">Investment</a></li>
+	<li><a href="investment">Investment</a></li>
 	<li><a href="online_business.html">Online Business</a></li>
 	<li><a href="tax.html">Tax</a></li>
 	<li><a href="theory.html">Theory</a></li>
