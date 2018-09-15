@@ -1,3 +1,7 @@
+---
+title: Investment
+rightnav_menu: investment_menu.md
+---
 
 <div style="float:left;padding-right:4px">
 	<img alt="" src="images/stockmarket.gif" />
